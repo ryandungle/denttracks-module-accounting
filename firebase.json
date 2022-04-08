@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "accounting-46b48",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
